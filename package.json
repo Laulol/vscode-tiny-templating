@@ -2,7 +2,7 @@
   "name": "tiny-templating",
   "displayName": "Tiny Templating",
   "description": "Small extension to do light templating (no loop or condition).",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -10,16 +10,26 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:tiny-templating.helloWorld"
+    "onCommand:tiny-templating.render"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "tiny-templating.helloWorld",
-        "title": "Hello World"
+        "command": "tiny-templating.render",
+        "title": "Render Template"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "TinyTemplating",
+      "properties": {
+        "tinyTemplating.variableSelector": {
+          "type": "string",
+          "default": "{{[a-z0-9]+}}",
+          "description": "The RegExp to select variables in the template."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
