@@ -23,4 +23,6 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-See the [CHANGELOG.md](CHANGELOG.md) file.
+### 1.0.0
+
+Initial release of the package.

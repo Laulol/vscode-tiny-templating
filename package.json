@@ -3,6 +3,13 @@
   "displayName": "Tiny Templating",
   "description": "Small extension to do light templating (no loop or condition).",
   "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Laulol/vscode-tiny-templating",
+    "type": "git"
+  },
+  "icon": "icon.png",
+  "license": "MIT",
+  "publisher": "laulol-github",
   "engines": {
     "vscode": "^1.71.0"
   },
