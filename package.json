@@ -34,6 +34,16 @@
           "type": "string",
           "default": "{{[a-z0-9]+}}",
           "description": "The RegExp to select variables in the template."
+        },
+        "tinyTemplating.variablePrefixLength": {
+          "type": "number",
+          "default": 2,
+          "description": "Number of characters to remove at the begin of the regex match to have de variable name."
+        },
+        "tinyTemplating.variableSuffixLength": {
+          "type": "number",
+          "default": 2,
+          "description": "Number of characters to remove at the end of the regex match to have de variable name."
         }
       }
     }
