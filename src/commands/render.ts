@@ -37,7 +37,8 @@ export default async function renderCommand(): Promise<void> {
     var text = template.replace(regex, v => variableValue[regexVar.exec(v)![0]]);
 
     // Open in the editor
-    await vscode.workspace.openTextDocument({ language: lastEditor.document.languageId, content: text });
+    const newDoc = await vscode.workspace.openTextDocument({ language: lastEditor.document.languageId, content: text });
+    await vscode.window.showTextDocument(newDoc, undefined, false);
 }
 
 function tryParseRegex(selector: string, global: boolean): RegExp | null {
