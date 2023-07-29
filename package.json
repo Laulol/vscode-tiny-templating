@@ -2,7 +2,7 @@
   "name": "tiny-templating",
   "displayName": "Tiny Templating",
   "description": "Small extension to do light templating (no loop or condition).",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "url": "https://github.com/Laulol/vscode-tiny-templating",
     "type": "git"

@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2023-07-29
 ### Added
 - Focus the created tab after the render.
 - Variables files to avoid prompt for some variables.
@@ -15,4 +16,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add "Render Template" command to ask and replace variable from text.
 
 [Unreleased]: https://github.com/Laulol/vscode-tiny-templating/compare/v1.0.0...HEAD
+[1.1.0]: https://github.com/Laulol/vscode-tiny-templating/releases/tag/v1.1.0
 [1.0.0]: https://github.com/Laulol/vscode-tiny-templating/releases/tag/v1.0.0
